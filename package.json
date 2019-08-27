@@ -1,0 +1,24 @@
+{
+  "name": "hash-registry-example",
+  "version": "1.0.0",
+  "description": "Example code for interacting with the Antonym HashRegistry service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonym-io/hash-registry-example.git"
+  },
+  "author": "Paul Sonier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antonym-io/hash-registry-example/issues"
+  },
+  "homepage": "https://github.com/antonym-io/hash-registry-example#readme",
+  "dependencies": {
+    "promise": "^8.0.3",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  }
+}
