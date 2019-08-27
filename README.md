@@ -19,7 +19,7 @@ Interacting with the Antonym HashRegistry service is done through a RESTful API 
 
 # Checking a Hash Value
 
-Checking whether or not a hash has been previously registered (by any registrant) is as simple as performing a GET request against an API.  Specifically, a request against the base URI of https://vlmf7pt9fe.execute-api.us-west-2.amazonaws.com/Beta/hash/ appended with the hex value of your hash can be performed without an API key and will check whether or not a hash value has already been registered.  As an example, we have previously registered a hash value of 0x815db7eb4c3732fe399007311e149ef1fcd7b40265e034fbb53c05bd40464069; you can check against it by going to the link of https://vlmf7pt9fe.execute-api.us-west-2.amazonaws.com/Beta/hash/0x815db7eb4c3732fe399007311e149ef1fcd7b40265e034fbb53c05bd40464069 with your web browser.
+Checking whether or not a hash has been previously registered (by any registrant) is as simple as performing a GET request against an API.  Specifically, a request against the base URI of https://vlmf7pt9fe.execute-api.us-west-2.amazonaws.com/Beta/hash/ appended with the hex value of your hash can be performed without an API key and will check whether or not a hash value has already been registered.  As an example, we have previously registered a hash value of *0x815db7eb4c3732fe399007311e149ef1fcd7b40265e034fbb53c05bd40464069*; you can check against it by going to the link of https://vlmf7pt9fe.execute-api.us-west-2.amazonaws.com/Beta/hash/0x815db7eb4c3732fe399007311e149ef1fcd7b40265e034fbb53c05bd40464069 with your web browser.
 
 
 # Registering a Hash Value
@@ -34,10 +34,10 @@ In this GitHub repository we provide command line tools that provide examples of
 To use these tools, you must have node.js installed.
 
 To check if a hash value has been previously registered, use:
-	node index isreg 0x815db7eb4c3732fe399007311e149ef1fcd7b40265e034fbb53c05bd40464069
+	`node index isreg 0x815db7eb4c3732fe399007311e149ef1fcd7b40265e034fbb53c05bd40464069`
 
 To register a new hash value, use:
-	node index addhash 0x815db7eb4c3732fe399007311e149ef1fcd7b40265e034fbb53c05bd40464069
+	`node index addhash 0x815db7eb4c3732fe399007311e149ef1fcd7b40265e034fbb53c05bd40464069`
 
 (Please note that the above "addhash" call will fail because the hash has been previously registered; to test the hash registration process, you can simply modify one of the digits in that hash above to another hex digit.)
 
