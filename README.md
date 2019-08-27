@@ -34,10 +34,16 @@ In this GitHub repository we provide command line tools that provide examples of
 To use these tools, you must have node.js installed.
 
 To check if a hash value has been previously registered, use:
+	
+
 	`node index isreg 0x815db7eb4c3732fe399007311e149ef1fcd7b40265e034fbb53c05bd40464069`
 
+
 To register a new hash value, use:
+	
+
 	`node index addhash 0x815db7eb4c3732fe399007311e149ef1fcd7b40265e034fbb53c05bd40464069`
+
 
 (Please note that the above "addhash" call will fail because the hash has been previously registered; to test the hash registration process, you can simply modify one of the digits in that hash above to another hex digit.)
 
