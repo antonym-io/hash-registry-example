@@ -1,20 +1,20 @@
 # hash-registry-example
-Example code for interacting with the Antonym HashRegistry service
+Example code for interacting with the Antonym HashRegistry™ service
 
 
-This repository contains example code for how to use node.js to interact with the Antonym HashRegistry service.
+This repository contains example code for how to use node.js to interact with the Antonym HashRegistry™ service.
 
 
 # API Key
 
-Adding a hash value to the Antonym HashRegistry service requires use of an API key.  Our example code uses the testing API key of "12345678"; you can feel free to perform your own testing against the Antonym HashRegistry API with that testing key, but be aware that any hashes posted to the API with that API key may be subject to deletion with no prior notice.  
+Adding a hash value to the Antonym HashRegistry™ service requires use of an API key.  Our example code uses the testing API key of "12345678"; you can feel free to perform your own testing against the Antonym HashRegistry™ API with that testing key, but be aware that any hashes posted to the API with that API key may be subject to deletion with no prior notice.  
 
-For an API key linked specifically to your enterprise and to have the guarantee of persistence, please contact your Antonym representative to get an API key for your enterprise.
+For an API key linked specifically to your enterprise and to have the guarantee of persistence, please contact Antonym to get an API key for your enterprise.
 
 
 # Interface Mechanism
 
-Interacting with the Antonym HashRegistry service is done through a RESTful API interface.  We are constantly extending and expanding this RESTful API to support additional features and functionality.  The service is currently in Beta; we will be extending our functionality and adding additional examples very soon.
+Interacting with the Antonym HashRegistry™ service is done through a RESTful API interface.  We are constantly extending and expanding this RESTful API to support additional features and functionality.  The service is currently in Beta; we will be extending our functionality and adding additional examples very soon.
 
 
 # Checking a Hash Value
@@ -29,7 +29,7 @@ Registering a hash value can be done by making an HTTP POST to the base URI of h
 
 # Command-line tools
 
-In this GitHub repository we provide command line tools that provide examples of how to interact with the Antonym HashRegistry service via Node.js, and which can be used from the command line to both register and check hash values. 
+In this GitHub repository we provide command line tools that provide examples of how to interact with the Antonym HashRegistry™ service via Node.js, and which can be used from the command line to both register and check hash values. 
 
 To use these tools, you must have node.js installed.
 
